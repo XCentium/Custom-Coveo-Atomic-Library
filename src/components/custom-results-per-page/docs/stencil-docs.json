@@ -1,0 +1,74 @@
+{
+  "timestamp": "2023-06-05T13:02:41",
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "2.22.2",
+    "typescriptVersion": "4.9.4"
+  },
+  "components": [
+    {
+      "filePath": "./src/custom-results-per-page.tsx",
+      "encapsulation": "shadow",
+      "tag": "custom-results-per-page",
+      "docs": "",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "choicesDisplayed",
+          "type": "string",
+          "mutable": false,
+          "attr": "choices-displayed",
+          "reflectToAttr": true,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": true
+        },
+        {
+          "name": "initialChoice",
+          "type": "number",
+          "mutable": true,
+          "attr": "initial-choice",
+          "reflectToAttr": true,
+          "docs": "",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "number"
+            }
+          ],
+          "optional": true,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [
+        {
+          "name": "label",
+          "docs": ""
+        },
+        {
+          "name": "select",
+          "docs": ""
+        },
+        {
+          "name": "select-separator",
+          "docs": ""
+        }
+      ],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    }
+  ]
+}

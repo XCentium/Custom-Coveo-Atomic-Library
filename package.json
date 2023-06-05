@@ -1,0 +1,32 @@
+{
+  "name": "@jcore/custom-coveo-atomic-components",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A project containing Custom Coveo Atomic components",
+  "scripts": {
+    "prepublishOnly": "npm run build && npm version patch",
+    "build": "npm run build --workspaces",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+    "@coveo/atomic": "2.19.16",
+    "@stencil/core": "2.22.2",
+    "pino-std-serializers": "^6.2.1"
+  },
+  "devDependencies": {
+    "@coveo/headless": "^2.8.10",
+    "@rollup/plugin-url": "8.0.1",
+    "@types/jest": "29.4.0",
+    "jest": "29.5.0",
+    "jest-cli": "29.5.0",
+    "puppeteer": "19.7.4",
+    "rimraf": "4.4.0",
+    "rollup-plugin-html": "0.2.1"
+  },
+  "license": "Apache-2.0",
+  "workspaces": [
+    "src/components/*"
+  ]
+}
