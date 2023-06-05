@@ -32,5 +32,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/XCentium/Custom-Coveo-Atomic-Library.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
