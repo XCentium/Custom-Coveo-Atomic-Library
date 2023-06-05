@@ -25,3 +25,4 @@ Thumbs.db
 UserInterfaceState.xcuserstate
 .env
 src/components/custom-results-per-page/docs/stencil-docs.json
+/src/components/custom-results-per-page/docs/stencil-docs.json
