@@ -1,6 +1,6 @@
 {
   "name": "@avid/custom-coveo-atomic-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A project containing Custom Coveo Atomic components",
   "scripts": {
     "prepublishOnly": "npm run build && npm version patch",
